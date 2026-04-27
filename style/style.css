@@ -357,15 +357,16 @@ body {
     display: block;
     padding: 10px;
     background-color: #34547a;
+    border: none;
   }
 
   .header__button-active {
     display: none;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: -1px;
+    bottom: 0;
     background-color: #34547a;
-    height: 100%;
   }
 
   .button__link-active {
