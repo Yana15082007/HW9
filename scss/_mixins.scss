@@ -1,0 +1,20 @@
+@mixin link {
+  text-decoration: none;
+  letter-spacing: 10%;
+  line-height: 164%;
+  cursor: pointer;
+}
+@mixin p($width: 500px, $padding: 0) {
+  width: $width;
+  color: #727272;
+  margin: 0;
+  line-height: 164%;
+  padding: $padding;
+}
+@mixin h($size: 48px, $weight: 500, $padding: 162px 0 60px 0, $line-h: 164%) {
+  font-size: $size;
+  font-weight: $weight;
+  line-height: $line-h;
+  padding: $padding;
+  margin: 0;
+}
